@@ -6,6 +6,7 @@ import logotipo from "~/assets/logotipo.webp";
 import HeroImage from "~/components/hero-image.astro";
 import Starfield from "~/components/starfield.astro";
 import GitHubCorner from "./github-corner.astro";
+const whatsappLink = "https://wa.me/5516994652814";
 
 const widths = [450, 800];
 const sizes = "(min-width: 640px) 42vw, 67vw";
@@ -37,6 +38,15 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
         <br />ao digital.
         <br />
       </div>
+      <a
+        href={whatsappLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="gap- inline-flex items-center rounded-full bg-green-500 px-4 py-2 text-white shadow transition hover:bg-green-600"
+      >
+        <Icon name="fa-brands:whatsapp" class="mr-2 size-8" />
+        fale conosco
+      </a>
     </h2>
     <div
       id="astronaut"
